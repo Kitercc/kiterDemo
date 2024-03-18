@@ -11,8 +11,9 @@ import MaxList from './components/maxList'
 import MyComp from './components/number'
 import { set } from 'lodash'
 import Demo1 from './components/ThreeFiber/Demo1'
+import ThreeDemo1 from './components/ThreeNative/ThreeDemo1'
 
 function App() {
-  return <Demo1 />
+  return <ThreeDemo1 />
 }
 export default App

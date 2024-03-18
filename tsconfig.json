@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".", // this must be specified if "paths" is specified.
+		"paths": {
+			"@/*": ["src/*"]
+		},
+		"moduleResolution": "Node",
+		"sourceMap": true,
+		"target": "es5",
+		"module": "esnext",
+		"lib": ["es2015", "es2016", "es2017", "dom"],
+		"strict": true,
+		"allowSyntheticDefaultImports": true,
+		"resolveJsonModule": true, //允许引入json文件
+		"jsx": "react"
+	},
+	"include": ["src"]
+}

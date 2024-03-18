@@ -1,0 +1,15 @@
+*.log*
+.cache
+.DS_Store
+.idea
+.vscode
+.history
+.editorconfig
+# build
+dist
+# npm
+node_modules
+yarn.lock
+package-lock.json
+
+
